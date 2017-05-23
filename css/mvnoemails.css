@@ -1,10 +1,21 @@
-/* Your custom styles go here */
+/* Custom fonts */
 
-.paper {
-    border-top: none;
-    padding-top: 0 !important;
+body, table.body, h1, h2, h3, h4, h5, h6, p, td, th, a {
+    font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 }
 
+hr {
+    border: 1px solid #DDD;
+    border-bottom: none;
+    margin-bottom: 18px;
+}
+
+td.large-12 center, th.large-12 center {
+    min-width: 0;
+}
+/* - */
+
+/* header */
 .header {
     background: #E21A23;
     padding: 0 !important;
@@ -40,6 +51,12 @@
     white-space: nowrap;
 }
 
+/* backgrounds */
+.paper {
+    border-top: none;
+    padding-top: 0 !important;
+}
+
 .greypane {
     background: #ebebeb;
 }
@@ -56,6 +73,7 @@
     padding: 0 !important;
 }
 
+/* custom text colors */
 .red {
     color: #cf030c !important;
 }
@@ -109,6 +127,7 @@
     padding: 5px 0 5px;
 }
 
+/*  */
 .fullwidth {
     width: 100%;
 }
