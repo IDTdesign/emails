@@ -1,2 +1,0 @@
-# emails
-Email templates
