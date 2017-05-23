@@ -45,5 +45,5 @@ module.exports = (grunt) =>
 					async: true
 				command: 'docpad run'
 
-	grunt.registerTask 'deploy',  ['shell:clean', 'shell:ghpages', 'gh-pages']
+	grunt.registerTask 'deploy',  ['shell:clean', 'shell:ghpages', 'inlinecss', 'gh-pages']
 	grunt.registerTask 'default', ['inlinecss']
