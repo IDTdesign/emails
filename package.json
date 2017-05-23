@@ -1,0 +1,40 @@
+{
+  "name": "emails",
+  "version": "0.0.1",
+  "description": "Email templates",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDTdesign/emails.git"
+  },
+  "keywords": [
+    "email",
+    "templates",
+    "static",
+    "generator"
+  ],
+  "author": "Paul Radzkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IDTdesign/emails/issues"
+  },
+  "homepage": "https://github.com/IDTdesign/emails#readme",
+  "devDependencies": {
+    "docpad": "~6.79.4",
+    "docpad-plugin-geturl": "~2.1.1",
+    "docpad-plugin-raw": "~2.5.1",
+    "docpad-plugin-eco": "~2.2.1",
+    "docpad-plugin-marked": "~2.4.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-gh-pages": "^2.0.0",
+    "grunt-inline-css": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "time-grunt": "^1.4.0"
+  },
+  "dependencies": {
+  }
+}

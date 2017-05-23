@@ -57,3 +57,10 @@ typings/
 # dotenv environment variables file
 .env
 
+# custom
+out/
+rsync.bat
+.docpad.db
+.ftppass
+.DS_Store
+.grunt
