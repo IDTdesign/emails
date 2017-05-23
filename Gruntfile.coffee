@@ -30,5 +30,20 @@ module.exports = (grunt) =>
 				files: ['out/mvno/*.html']
 				tasks: ['inlinecss:bossdtc']
 
-	grunt.registerTask 'deploy',  ['gh-pages']
+		shell:
+			clean:
+				options:
+					stdout: true
+				command: 'docpad clean'
+			ghpages:
+				options:
+					stdout: true
+				command: 'docpad generate --env static'
+			run:
+				options:
+					stdout: true
+					async: true
+				command: 'docpad run'
+
+	grunt.registerTask 'deploy',  ['shell:clean', 'shell:ghpages', 'gh-pages']
 	grunt.registerTask 'default', ['inlinecss']
