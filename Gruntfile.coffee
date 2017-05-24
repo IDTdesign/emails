@@ -17,6 +17,16 @@ module.exports = (grunt) =>
 					src: ['*.html']
 					dest: 'src/raw/bossdtc/inlined/'
 				]
+			mvno:
+				options: [
+					webResources: {images: false}
+				]
+				files: [
+					expand: true,
+					cwd: 'out/mvno/'
+					src: ['*.html']
+					dest: 'src/raw/mvno/inlined/'
+				]
 
 		'gh-pages':
 			options:
@@ -28,7 +38,7 @@ module.exports = (grunt) =>
 		watch:
 			bossdtc:
 				files: ['out/mvno/*.html']
-				tasks: ['inlinecss:bossdtc']
+				tasks: ['inlinecss:mvno']
 
 		shell:
 			clean:

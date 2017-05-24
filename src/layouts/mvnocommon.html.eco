@@ -17,20 +17,12 @@
                                 <table class="row">
                                     <tr>
                                         <th class="header">
-                                            <table class="fullwidth">
-                                                <tr>
-                                                    <td class="header-images">
-                                                        <img src="images/bossrevolution-mobile-horizontal@2x.png" data-inline-ignore alt="BOSS" width="82.45" height="40" />
-                                                    </td>
-                                                    <td class="header-center"></td>
-                                                    <td class="header-link text-center">
-                                                        <% if (@document.lang == 'es') : %>
-                                                        <a href="#">Mi cuenta</a>
-                                                        <% else : %>
-                                                        <a href="#">My Account</a>
-                                                        <% end %>
-                                                    </td>
-                                                </tr>
+                                            <table class="spacer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td height="4px" style="font-size:4px;line-height:4px;">&#xA0;</td>
+                                                    </tr>
+                                                </tbody>
                                             </table>
                                         </th>
                                     </tr>
@@ -41,13 +33,34 @@
                                     </tr>
                                     <tr>
                                         <th class="columns first last">
-                                            <table class="fullwidth">
+                                            <table class="spacer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td height="24px" style="font-size:24px;line-height:24px;">&#xA0;</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table class="fullwidth text-center">
                                                 <tr>
-                                                    <td class="text-center bosslink" align="center">
+                                                    <td class="mvno-logo">
                                                         <% if (@document.lang == 'es') : %>
-                                                        <a href="https://www.bossrevolutionmobile.com/es-US" target="_blank" class="center bosslink"><strong class="black">bossrevolution</strong><strong class="red">mobile</strong>.com</a>
+                                                        <a href="https://www.bossrevolutionmobile.com/es-us" target="_blank" class="text-center">
+                                                            <img src="<%= @getUrl('/mvno/images/bossrevolution-mobile-horizontal@2x.png')%>" class="float-center" alt="BOSS" width="134" height="65"/>
+                                                        </a>
                                                         <% else : %>
-                                                        <a href="https://www.bossrevolutionmobile.com/en-US" target="_blank" class="center bosslink"><strong class="black">bossrevolution</strong><strong class="red">mobile</strong>.com</a>
+                                                        <a href="https://www.bossrevolutionmobile.com/en-us" target="_blank" class="text-center">
+                                                            <img src="<%= @getUrl('/mvno/images/bossrevolution-mobile-horizontal@2x.png')%>" class="float-center" alt="BOSS" width="134" height="65"/>
+                                                        </a>
+                                                        <% end %>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center bosslink-wrapper" align="center">
+                                                        <% if (@document.lang == 'es') : %>
+                                                        <a href="https://www.bossrevolutionmobile.com/es-us" target="_blank" class="text-center bosslink"><strong class="black">bossrevolution</strong><strong class="red">mobile</strong>.com</a>
+                                                        <% else : %>
+                                                        <a href="https://www.bossrevolutionmobile.com/en-us" target="_blank" class="text-center bosslink"><strong class="black">bossrevolution</strong><strong class="red">mobile</strong>.com</a>
                                                         <% end %>
                                                     </td>
                                                     <td class="expander"></td>

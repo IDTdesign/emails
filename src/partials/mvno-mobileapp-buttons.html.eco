@@ -1,0 +1,38 @@
+<p class="text-center">
+    <% if (@document.lang == 'en') : %>
+    Use our FREE app to maximize your savings.
+    <% end %>
+    <% if (@document.lang == 'es') : %>
+    Use nuestra app GRATUITA y maximice su ahorro.
+    <% end %>
+</p>
+<table class="spacer">
+    <tbody>
+        <tr>
+            <td height="8px" style="font-size:8px;line-height:8px;">&#xA0;</td>
+        </tr>
+    </tbody>
+</table>
+<center>
+    <table class="text-center">
+        <tr>
+            <td class="text-right">
+                <% if (@document.lang == 'en') : %>
+                <a href="#appstore"><img src="<%= @getUrl('/mvno/images/btn-appstore.svg')%>" data-inline-ignore alt="Download on the AppStore" align="right" class="float-right" width="135" height="40"/></a>
+                <% end %>
+                <% if (@document.lang == 'es') : %>
+                <a href="#appstore"><img src="<%= @getUrl('/mvno/images/btn-appstore.svg')%>" data-inline-ignore alt="Download on the AppStore" align="right" class="float-right" width="135" height="40"/></a>
+                <% end %>
+            </td>
+            <td class="padding"></td>
+            <td class="text-left">
+                <% if (@document.lang == 'en') : %>
+                <a href="#gplay"><img src="<%= @getUrl('/mvno/images/btn-gplay.svg')%>" data-inline-ignore alt="Get it on Google Play" align="left" class="float-left" width="135" height="40"/></a>
+                <% end %>
+                <% if (@document.lang == 'es') : %>
+                <a href="#gplay"><img src="<%= @getUrl('/mvno/images/btn-gplay.svg')%>" data-inline-ignore alt="Get it on Google Play" align="left" class="float-left" width="135" height="40"/></a>
+                <% end %>
+            </td>
+        </tr>
+    </table>
+</center>

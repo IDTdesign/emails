@@ -1,0 +1,30 @@
+---
+layout: mvnocommon
+lang: es
+---
+
+<table class="row">
+    <tr>
+        <th class="small-12 large-12 columns first last">
+            <table class="spacer">
+                <tbody>
+                    <tr>
+                        <td height="40px" style="font-size:40px;line-height:40px;">&#xA0;</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="text-left">Bienvenido a Boss Revolution Móvil.</p>
+            <p class="text-left">Su código de seguridad para bossrevmobile.com y correo de voz es</p>
+            <h4 class="text-left">XXXX</h4>
+            <table class="spacer">
+                <tbody>
+                    <tr>
+                        <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr/>
+            <%- @partial('mvno-mobileapp-buttons') %>
+        </th>
+    </tr>
+</table>

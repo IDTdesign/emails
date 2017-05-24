@@ -9,37 +9,37 @@ title: Email templates
 
 ### Activation
 
-* MVNO_activation_greetings_en-US — [development](mvno/MVNO_activation_greetings_en-US.html) | [INLINED]()
-* MVNO_activation_greetings_es-US — [development](mvno/MVNO_activation_greetings_es-US.html) | [INLINED]()
+* MVNO_activation_greetings_en-US — [development](mvno/MVNO_activation_greetings_en-US.html) | [INLINED](mvno/inlined/MVNO_activation_greetings_en-US.html)
+* MVNO_activation_greetings_es-US — [development](mvno/MVNO_activation_greetings_es-US.html) | [INLINED](mvno/inlined/MVNO_activation_greetings_es-US.html)
 
 
-* MVNO_activation_failure_en-US — [development](mvno/MVNO_activation_failure_en-US.html) | [INLINED]()
-* MVNO_activation_failure_es-US — [development](mvno/MVNO_activation_failure_es-US.html) | [INLINED]()
+* MVNO_activation_failure_en-US — [development](mvno/MVNO_activation_failure_en-US.html) | [INLINED](mvno/inlined/MVNO_activation_failure_en-US.html)
+* MVNO_activation_failure_es-US — [development](mvno/MVNO_activation_failure_es-US.html) | [INLINED](mvno/inlined/MVNO_activation_failure_es-US.html)
 
 
-* MVNO_activation_success_en-US — [development](mvno/MVNO_activation_success_en-US.html) | [INLINED]()
-* MVNO_activation_success_es-US — [development](mvno/MVNO_activation_success_es-US.html) | [INLINED]()
+* MVNO_activation_success_en-US — [development](mvno/MVNO_activation_success_en-US.html) | [INLINED](mvno/inlined/MVNO_activation_success_en-US.html)
+* MVNO_activation_success_es-US — [development](mvno/MVNO_activation_success_es-US.html) | [INLINED](mvno/inlined/MVNO_activation_success_es-US.html)
 
 ### Reminders
 
-* MVNO_reminder_no-auto-recharge_en-US — [development](mvno/MVNO_reminder_no-auto-recharge_en-US.html)
-* MVNO_reminder_no-auto-recharge_es-US —
+* MVNO_reminder_no-auto-recharge_en-US — [development](mvno/MVNO_reminder_no-auto-recharge_en-US.html) | [INLINED](mvno/inlined/MVNO_reminder_no-auto-recharge_en-US.html)
+* MVNO_reminder_no-auto-recharge_es-US — [development](mvno/MVNO_reminder_no-auto-recharge_es-US.html) | [INLINED](mvno/inlined/MVNO_reminder_no-auto-recharge_es-US.html)
 
 
-* MVNO_reminder_1_en-US
-* MVNO_reminder_1_es-US
+* MVNO_reminder_1_en-US — [development](mvno/MVNO_reminder_1_en-US.html) | [INLINED](mvno/inlined/MVNO_reminder_1_en-US.html)
+* MVNO_reminder_1_es-US — [development](mvno/MVNO_reminder_1_es-US.html) | [INLINED](mvno/inlined/MVNO_reminder_1_es-US.html)
 
 
-* MVNO_reminder_2_en-US
-* MVNO_reminder_2_es-US
+* MVNO_reminder_2_en-US — [development](mvno/MVNO_reminder_2_en-US.html) | [INLINED](mvno/inlined/MVNO_reminder_2_en-US.html)
+* MVNO_reminder_2_es-US — [development](mvno/MVNO_reminder_2_es-US.html) | [INLINED](mvno/inlined/MVNO_reminder_2_es-US.html)
 
 
-* MVNO_reminder_3_en-US
-* MVNO_reminder_3_es-US
+* MVNO_reminder_3_en-US — [development](mvno/MVNO_reminder_3_en-US.html) | [INLINED](mvno/inlined/MVNO_reminder_3_en-US.html)
+* MVNO_reminder_3_es-US — [development](mvno/MVNO_reminder_3_es-US.html) | [INLINED](mvno/inlined/MVNO_reminder_3_es-US.html)
 
 
-* MVNO_reminder_4_en-US
-* MVNO_reminder_4_es-US
+* MVNO_reminder_4_en-US — [development](mvno/MVNO_reminder_4_en-US.html) | [INLINED](mvno/inlined/MVNO_reminder_4_en-US.html)
+* MVNO_reminder_4_es-US — [development](mvno/MVNO_reminder_4_es-US.html) | [INLINED](mvno/inlined/MVNO_reminder_4_es-US.html)
 
 ## BOSSDTC (bossrevolution.com)
 

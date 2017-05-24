@@ -14,6 +14,14 @@ td.large-12 center, th.large-12 center {
     min-width: 0;
 }
 /* - */
+.mvno-logo {
+    padding-right: 24px;
+}
+
+.mvno-logo img {
+    width: 134px !important;
+    height: 65px !important;
+}
 
 /* header */
 .header {
@@ -84,6 +92,15 @@ td.large-12 center, th.large-12 center {
 
 .white {
     color: #FFF !important;
+}
+
+
+/* buttons */
+.mvno-btn.mvno-btn {
+    background-color: #fff;
+    color: #E21A23;
+    border-width: 1px;
+    border-color: #E21A23;
 }
 
 .mainheader {
@@ -185,8 +202,9 @@ td.large-12 center, th.large-12 center {
     padding-bottom: 15px;
 }
 
-.bosslink {
+.bosslink-wrapper {
     padding: 15px !important;
+    white-space: nowrap;
 }
 
 a.bosslink, a.bosslink:link, a.bosslink:visited, a.bosslink:hover, a.bosslink:active {
