@@ -7,7 +7,7 @@ docpadConfig = {
 	templateData:
 		site:
 			# Site Production URL
-			url: 'http://idtdesign.github.io/emails'
+			url: 'https://idtdesign.github.io/emails'
 
 			# The website's styles
 			styles: [
