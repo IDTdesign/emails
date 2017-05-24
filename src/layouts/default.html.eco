@@ -7,8 +7,17 @@
     <title><%= @document.title %> @ IDTdesign</title>
     <link rel="stylesheet" href="https://unpkg.com/bettertext.css@latest/bettertext.min.css">
     <link rel="stylesheet" href="https://unpkg.com/links.less@latest/links.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flxgrid.css@1.0.0/flxgrid.css">
 </head>
 <body>
-    <%- @content %>
+    <header class="row row-between-xs" style="max-width: calc(50em + 30px)">
+        <div class="col-xs-shrink"><a href="https://idtdesign.github.io/">IDT · DESIGN</a></div>
+        <div class="col-xs-shrink"><a class="github-button" href="https://github.com/IDTdesign/emails/" data-size="large" aria-label="Open IDTdesign/emails on GitHub">Open on GitHub</a></div>
+    </header>
+    <hr>
+    <main>
+        <%- @content %>
+    </main>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>
