@@ -202,7 +202,7 @@ td.large-12 center, th.large-12 center {
     padding-bottom: 15px;
 }
 
-.bosslink {
+.bosslink-wrapper {
     padding: 15px !important;
     white-space: nowrap;
 }
