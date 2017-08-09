@@ -41,6 +41,21 @@ title: Email templates
 * MVNO_reminder_4_en-US — [development](mvno/MVNO_reminder_4_en-US.html) | [INLINED](mvno/inlined/MVNO_reminder_4_en-US.html)
 * MVNO_reminder_4_es-US — [development](mvno/MVNO_reminder_4_es-US.html) | [INLINED](mvno/inlined/MVNO_reminder_4_es-US.html)
 
+## Retailers MVNO (retailers.bossrevolution.com)
+
+### Activation
+
+* MVNO_activation_greetings_en-US — [development](retailersmvno/MVNO_activation_greetings_en-US.html) | [INLINED](retailersmvno/inlined/MVNO_activation_greetings_en-US.html)
+* MVNO_activation_greetings_es-US — [development](retailersmvno/MVNO_activation_greetings_es-US.html) | [INLINED](retailersmvno/inlined/MVNO_activation_greetings_es-US.html)
+
+
+* MVNO_activation_failure_en-US — [development](retailersmvno/MVNO_activation_failure_en-US.html) | [INLINED](retailersmvno/inlined/MVNO_activation_failure_en-US.html)
+* MVNO_activation_failure_es-US — [development](retailersmvno/MVNO_activation_failure_es-US.html) | [INLINED](retailersmvno/inlined/MVNO_activation_failure_es-US.html)
+
+
+* MVNO_activation_success_en-US — [development](retailersmvno/MVNO_activation_success_en-US.html) | [INLINED](retailersmvno/inlined/MVNO_activation_success_en-US.html)
+* MVNO_activation_success_es-US — [development](retailersmvno/MVNO_activation_success_es-US.html) | [INLINED](retailersmvno/inlined/MVNO_activation_success_es-US.html)
+
 ## BOSSDTC (bossrevolution.com)
 
 ### Welcome
