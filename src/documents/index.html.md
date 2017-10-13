@@ -56,6 +56,13 @@ title: Email templates
 * MVNO_activation_success_en-US — [development](retailersmvno/MVNO_activation_success_en-US.html) | [INLINED](retailersmvno/inlined/MVNO_activation_success_en-US.html)
 * MVNO_activation_success_es-US — [development](retailersmvno/MVNO_activation_success_es-US.html) | [INLINED](retailersmvno/inlined/MVNO_activation_success_es-US.html)
 
+## Retailers (retailers.bossrevolution.com)
+
+### MT
+
+* Success_en-US — [development](retailers/RETAILERS_MT_success_en-US.html) | [INLINED](retailers/inlined/RETAILERS_MT_success_en-US.html)
+
+
 ## BOSSDTC (bossrevolution.com)
 
 ### Welcome

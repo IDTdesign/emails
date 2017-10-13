@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" type="text/css" href="<%= @getUrl('../css/foundation-emails.css') %>" />
+    <link rel="stylesheet" type="text/css" href="<%= @getUrl('../css/retailersemails.css') %>" />
+</head>
+<body>
+    <table class="body" data-made-with-foundation>
+        <tr>
+            <td class="float-center" align="center" valign="top">
+                <center>
+                    <table class="container transparentpane">
+                        <tr>
+                            <td class="paper whitepane">
+                                <table class="row">
+                                    <tr>
+                                        <th class="header">
+                                            <table class="spacer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td height="4px" style="font-size:4px;line-height:4px;">&#xA0;</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th class="columns first last">
+                                            <table class="spacer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td height="24px" style="font-size:24px;line-height:24px;">&#xA0;</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table class="fullwidth text-center">
+                                                <tr>
+                                                    <td class="logo">
+                                                        <% if (@document.lang == 'es') : %>
+                                                        <a href="https://retailers.bossrevolution.com" target="_blank" class="text-center">
+                                                            <img src="<%= @getUrl('/images/bossrevolution-money-transfer-horizontal@2x.png')%>" class="float-center" alt="BOSS MT" width="135" height="65"/>
+                                                        </a>
+                                                        <% else : %>
+                                                        <a href="https://retailers.bossrevolution.com" target="_blank" class="text-center">
+                                                            <img src="<%= @getUrl('/images/bossrevolution-money-transfer-horizontal@2x.png')%>" class="float-center" alt="BOSS MT" width="135" height="65"/>
+                                                        </a>
+                                                        <% end %>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <%- @content %>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="columns first last">
+                                            <table class="fullwidth text-center">
+                                                <tr>
+                                                    <td class="text-center address" align="center">
+                                                        <% if (@document.lang == 'es') : %>
+                                                        IDT Payment Services Inc. : 520 Broad Street Newark, NJ 07102 :<br/> Customer Service : 800-618-3172
+                                                        <% else : %>
+                                                        IDT Payment Services Inc. : 520 Broad Street Newark, NJ 07102 :<br/> Customer Service : 800-618-3172
+                                                        <% end %>
+                                                    </td>
+                                                    <td class="expander"></td>
+                                                </tr>
+                                            </table>
+                                        </th>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="paper">
+                                <table class="container transparentpane">
+                                    <tbody>
+                                        <tr>
+                                            <td class="legal-notes">
+                                                <% if (@document.lang == 'en') : %>
+                                                    IMPORTANT NOTICES CONDITIONS OF SERVICE <br/><br/>
+                                                      Funds received are not insured. If foreign exchange rate is not known or if the exchange rate is determined at the time the funds are to be paid out, the exchange rate section will be blank. <br/>
+                                                      Administration Charge: Transactions not picked up within 90 days of the send date will be assessed a non-refundable administration charge of $2.50 per month from the send date, not to exceed the maximum permitted by law, which will be deducted from the amount sent (or where such charge exceeds the maximum amount permitted by law, the maximum amount permitted by law). Limitation of Liability: In no event shall IDT Payment Services Inc. be liable for damages whether caused by negligence on the part of its employees, suppliers or agents or otherwise, except as required by law. Refunds: You can cancel for a full refund within 30 minutes of payment, unless the funds have been picked up and/or deposited in the beneficiary’s bank account. Questions/Problems: For questions or complaints with respect to any aspect of the money transmission activities conducted at this location, you may contact IDT Payment Services Inc. at: 800-618-3172. This transaction is subject to the conditions on this receipt. Your signature on this receipt confirms that you accept the terms and that the information provided by you is accurate. Refunds on cancel transactions will not be made until IDT Payment Services Inc. and its correspondent confirms that the transaction has not been paid. Please call IDT Payment Services Inc. Customer Service at 800-618-3172 to request a refund or send a written request to the attention of IDT Payment Services Inc., Customer Service, 520 Broad Street, Newark NJ 07102. IDT Payment Services Inc. is not responsible for erroneous payment based on information provided by you. In the event of non delivery or delayed delivery IDT Payment Services Inc. liability shall not exceed the face amount of the transaction. For further information on the terms and conditions please visit our website at <a href="http://www.idt.net" target="_blank">http://www.idt.net</a><br/>
+                                                      It is possible that IDT Payment Services Inc receives additional revenue between the rate of acquisition and the retail rate in transactions involving foreign currency. For transaction sent to be paid in local currency, IDT Payment Services may round up or down the amount to be received by the beneficiaries to the nearest whole amount. <br/>
+                                                      You may also contact: Consumer Financial Protection Bureau. Phone : 855-411-2372, 855-729-2372 (TTY/TDD). Web :
+                                                      <a href="http://www.consumerfinance.gov" target="_blank">http://www.consumerfinance.gov</a><br/>
+                                                      For questions or complaints about IDT Payment Services Inc, please contact State of Arizona Department of Financial Institutions Address: 2910 N. 44th St. Suite 310 Phoenix, AZ 85018 Phone number: 602-771-2800 Website
+                                                      <a href="http://www.azdfi.gov/index.html" target="_blank">http://www.azdfi.gov/index.html</a><br/>
+                                                      Consumers are warned that they may be victims of scams and/or fraud. If you do not know the person you are sending money to and/or the transaction seems suspicious, please contact IDT Payment Services, Inc Customer care department at 800-618-3172. <br/>
+                                                      BEWARE - Never send money to someone you don't really know!.
+                                                <% else : %>
+
+                                                <% end %>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </center>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

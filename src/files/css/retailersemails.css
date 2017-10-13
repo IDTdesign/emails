@@ -1,0 +1,302 @@
+/* Custom fonts */
+
+body, table.body, h1, h2, h3, h4, h5, h6, p, td, th, a {
+    font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+}
+
+/* - */
+.logo {
+    padding-right: 24px;
+}
+
+.logo img {
+    width: 135px !important;
+    height: 65px !important;
+}
+
+/* header */
+.header {
+    background: #E21A23;
+    padding: 0 !important;
+}
+
+/* backgrounds */
+.transparentpane {
+    background: transparent !important;
+}
+
+.paper {
+    border-top: none;
+    padding-top: 0 !important;
+}
+
+.greypane {
+    background: #ebebeb;
+}
+
+.whitepane {
+    background: #FFF;
+}
+
+.redpane {
+    background: #dd1a23;
+}
+
+.shadow {
+    padding: 0 !important;
+}
+
+/* custom text colors */
+.red {
+    color: #cf030c !important;
+}
+
+.black {
+    color: #000 !important;
+}
+
+.white {
+    color: #FFF !important;
+}
+
+.spacer {
+    width: 2%;
+}
+
+.address {
+    font-size: 8px;
+}
+
+.address br {
+    display: none;
+}
+
+@media only screen and (max-width: 399px) {
+    .address br {
+        display: block !important;
+    }
+}
+
+.store-info .h4 {
+    font-size: 10px;
+}
+
+.store-info .h5 {
+    font-size: 9px;
+}
+
+.divider {
+    float: none;
+    margin: 0 auto;
+    Margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+}
+
+.divider-line {
+    border-bottom: 1px solid #CACACA;
+}
+
+.copy {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.legal-notes {
+    padding: 20px 15px 30px;
+    font-size: 10px;
+    line-height: 1.2;
+    color: #666;
+    vertical-align: middle;
+}
+
+.legal-notes a {
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 620px) and (min-width: 400px) {
+    .legal-notes {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    table.body .container {
+        width: 100% !important;
+    }
+
+    .legal-notes {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        padding-bottom: 15px !important;
+    }
+}
+
+/* tables with data */
+.data-main {
+    border: 1px solid #D0021B;
+}
+
+.data-main .data-label {
+    width: 50%;
+    padding: 2px 0 2px 10px;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #686868;
+}
+
+.data-main .data-value {
+    padding: 2px 10px;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #000000;
+}
+
+.data-main tr:first-child .data-label,
+.data-main tr:first-child .data-value {
+    padding-top: 10px;
+}
+
+.data-main tr:last-child .data-label,
+.data-main tr:last-child .data-value {
+    padding-bottom: 10px;
+}
+
+.data-secondary {
+    background: #EBEBEB;
+}
+
+.data-secondary-first,
+.data-secondary-last {
+    width: 50%;
+}
+
+.data-secondary .data-label {
+    width: 100px;
+    padding: 2px 0 2px 10px;
+    font-size: 10px;
+    line-height: 1.2;
+    color: #686868;
+}
+
+.data-secondary .data-value {
+    padding: 2px 10px 2px 5px;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #000000;
+    word-break: break-word;
+}
+
+.data-secondary-header {
+    padding: 16px 10px 5px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #4A4A4A;
+    background: #FFFFFF;
+}
+
+.data-secondary-cell tr:first-child .data-label,
+.data-secondary-cell tr:first-child .data-value {
+    padding-top: 10px;
+}
+
+.data-secondary-cell tr:last-child .data-label,
+.data-secondary-cell tr:last-child .data-value {
+    padding-bottom: 10px;
+}
+
+.data-secondary-middle {
+    background: #FFFFFF;
+}
+
+.data-secondary-middle .data-secondary-divider-v {
+    width: 1px;
+}
+
+@media only screen and (max-width: 620px) {
+    .data-main .data-label {
+        font-size: 11px !important;
+    }
+
+    .data-main .data-value {
+        font-size: 12px !important;
+    }
+
+    .data-secondary > tr {
+        display: block !important;
+    }
+
+    .data-main .data-label,
+    .data-secondary .data-label {
+        width: 37% !important;
+    }
+
+    .data-secondary-middle {
+        display: none !important;
+    }
+
+    .data-secondary-first,
+    .data-secondary-last {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .data-secondary-last .data-secondary-header,
+    .data-secondary-last .data-label {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    table.body .columns,
+    table.body .column {
+        padding-left: 14px !important;
+        padding-right: 14px !important;
+    }
+
+    .data-main .data-label,
+    .data-main .data-value,
+    .data-secondary .data-label,
+    .data-secondary .data-value,
+    .data-secondary-last .data-secondary-header,
+    .data-secondary-header {
+        padding-left: 5px !important;
+    }
+
+    .data-main .data-value,
+    .data-secondary .data-value,
+    .data-secondary-header {
+        padding-right: 5px !important;
+    }
+
+    .data-main tr:first-child .data-label,
+    .data-main tr:first-child .data-value,
+    .data-secondary-cell tr:first-child .data-label,
+    .data-secondary-cell tr:first-child .data-value {
+        padding-top: 5px !important;
+    }
+
+    .data-main tr:last-child .data-label,
+    .data-main tr:last-child .data-value,
+    .data-secondary-cell tr:last-child .data-label,
+    .data-secondary-cell tr:last-child .data-value {
+        padding-bottom: 5px !important;
+    }
+
+    .data-secondary-header {
+        padding-top: 8px !important;
+        padding-bottom: 2px !important;
+    }
+}
+
+@media only screen and (max-width: 620px) and (min-width: 400px) {
+    table.body .columns,
+    table.body .column {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}

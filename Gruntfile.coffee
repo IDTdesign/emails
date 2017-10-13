@@ -37,6 +37,16 @@ module.exports = (grunt) =>
 					src: ['*.html']
 					dest: 'src/raw/retailersmvno/inlined/'
 				]
+			retailers:
+				options: [
+					webResources: {images: false}
+				]
+				files: [
+					expand: true,
+					cwd: 'out/retailers/'
+					src: ['*.html']
+					dest: 'src/raw/retailers/inlined/'
+				]
 
 		'gh-pages':
 			options:
