@@ -305,7 +305,14 @@ table.body table.container .row.hide-for-large {
 }
 </style>
     <style type="text/css">
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 620px) and (min-width: 400px) {
+  table.body .columns,
+table.body .column {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+@media only screen and (max-width: 399px) {
   table.body .columns,
 table.body .column {
     padding-left: 14px !important;
@@ -318,94 +325,88 @@ table.body .column {
 .data-secondary .data-value,
 .data-secondary-last .data-secondary-header,
 .data-secondary-header {
-    padding-left: 5px;
+    padding-left: 5px !important;
   }
 
   .data-main .data-value,
 .data-secondary .data-value,
 .data-secondary-header {
-    padding-right: 5px;
+    padding-right: 5px !important;
   }
 
   .data-main tr:first-child .data-label,
 .data-main tr:first-child .data-value,
 .data-secondary-cell tr:first-child .data-label,
 .data-secondary-cell tr:first-child .data-value {
-    padding-top: 5px;
+    padding-top: 5px !important;
   }
 
   .data-main tr:last-child .data-label,
 .data-main tr:last-child .data-value,
 .data-secondary-cell tr:last-child .data-label,
 .data-secondary-cell tr:last-child .data-value {
-    padding-bottom: 5px;
+    padding-bottom: 5px !important;
   }
 
   .data-secondary-header {
-    padding-top: 8px;
-    padding-bottom: 2px;
+    padding-top: 8px !important;
+    padding-bottom: 2px !important;
   }
 }
 @media only screen and (max-width: 620px) {
-  table.body .columns,
-table.body .column {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-
   .data-main .data-label {
-    font-size: 11px;
+    font-size: 11px !important;
   }
 
   .data-main .data-value {
-    font-size: 12px;
+    font-size: 12px !important;
   }
 
   .data-secondary > tr {
-    display: block;
+    display: block !important;
   }
 
   .data-main .data-label,
 .data-secondary .data-label {
-    width: 37%;
+    width: 37% !important;
   }
 
   .data-secondary-middle {
-    display: none;
+    display: none !important;
   }
 
   .data-secondary-first,
 .data-secondary-last {
-    display: block;
-    width: 100%;
+    display: block !important;
+    width: 100% !important;
   }
 
   .data-secondary-last .data-secondary-header,
 .data-secondary-last .data-label {
-    padding-left: 10px;
+    padding-left: 10px !important;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 399px) {
   table.body .container {
     width: 100% !important;
   }
 
   .legal-notes {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-bottom: 15px !important;
   }
 }
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 620px) and (min-width: 400px) {
   .legal-notes {
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 20px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 20px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   .address br {
-    display: block;
+    display: block !important;
   }
 }
 </style>
@@ -444,7 +445,7 @@ table.body .column {
                                                     <td class="logo" style="word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; vertical-align: top; color: #0a0a0a; font-weight: normal; padding: 0; margin: 0; Margin: 0; text-align: left; font-size: 16px; line-height: 1.5; font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif; padding-right: 24px; border-collapse: collapse;" valign="top" align="left">
                                                         
                                                         <a href="https://retailers.bossrevolution.com" target="_blank" class="text-center" style="font-weight: normal; padding: 0; margin: 0; Margin: 0; text-align: left; line-height: 1.5; color: #E21A23; text-decoration: none; font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;">
-                                                            <img src="https://idtdesign.github.io/emails/images/bossrevolution-money-transfer-horizontal@2x.png" class="float-center" alt="BOSS MT" width="135" height="65" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100%; clear: both; display: block; border: none; margin: 0 auto; Margin: 0 auto; float: none; text-align: center; width: 135px; height: 65px;">
+                                                            <img src="http://localhost:9778/images/bossrevolution-money-transfer-horizontal@2x.png" class="float-center" alt="BOSS MT" width="135" height="65" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100%; clear: both; display: block; border: none; margin: 0 auto; Margin: 0 auto; float: none; text-align: center; width: 135px; height: 65px;">
                                                         </a>
                                                         
                                                     </td>

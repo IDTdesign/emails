@@ -71,9 +71,9 @@ body, table.body, h1, h2, h3, h4, h5, h6, p, td, th, a {
     display: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 399px) {
     .address br {
-        display: block;
+        display: block !important;
     }
 }
 
@@ -116,23 +116,23 @@ body, table.body, h1, h2, h3, h4, h5, h6, p, td, th, a {
     white-space: nowrap;
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 620px) and (min-width: 400px) {
     .legal-notes {
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 20px;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 20px !important;
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 399px) {
     table.body .container {
         width: 100% !important;
     }
 
     .legal-notes {
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 15px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        padding-bottom: 15px !important;
     }
 }
 
@@ -218,46 +218,40 @@ body, table.body, h1, h2, h3, h4, h5, h6, p, td, th, a {
 }
 
 @media only screen and (max-width: 620px) {
-    table.body .columns,
-    table.body .column {
-        padding-left: 20px !important;
-        padding-right: 20px !important;
-    }
-
     .data-main .data-label {
-        font-size: 11px;
+        font-size: 11px !important;
     }
 
     .data-main .data-value {
-        font-size: 12px;
+        font-size: 12px !important;
     }
 
     .data-secondary > tr {
-        display: block;
+        display: block !important;
     }
 
     .data-main .data-label,
     .data-secondary .data-label {
-        width: 37%;
+        width: 37% !important;
     }
 
     .data-secondary-middle {
-        display: none;
+        display: none !important;
     }
 
     .data-secondary-first,
     .data-secondary-last {
-        display: block;
-        width: 100%;
+        display: block !important;
+        width: 100% !important;
     }
 
     .data-secondary-last .data-secondary-header,
     .data-secondary-last .data-label {
-        padding-left: 10px;
+        padding-left: 10px !important;
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 399px) {
     table.body .columns,
     table.body .column {
         padding-left: 14px !important;
@@ -270,31 +264,39 @@ body, table.body, h1, h2, h3, h4, h5, h6, p, td, th, a {
     .data-secondary .data-value,
     .data-secondary-last .data-secondary-header,
     .data-secondary-header {
-        padding-left: 5px;
+        padding-left: 5px !important;
     }
 
     .data-main .data-value,
     .data-secondary .data-value,
     .data-secondary-header {
-        padding-right: 5px;
+        padding-right: 5px !important;
     }
 
     .data-main tr:first-child .data-label,
     .data-main tr:first-child .data-value,
     .data-secondary-cell tr:first-child .data-label,
     .data-secondary-cell tr:first-child .data-value {
-        padding-top: 5px;
+        padding-top: 5px !important;
     }
 
     .data-main tr:last-child .data-label,
     .data-main tr:last-child .data-value,
     .data-secondary-cell tr:last-child .data-label,
     .data-secondary-cell tr:last-child .data-value {
-        padding-bottom: 5px;
+        padding-bottom: 5px !important;
     }
 
     .data-secondary-header {
-        padding-top: 8px;
-        padding-bottom: 2px;
+        padding-top: 8px !important;
+        padding-bottom: 2px !important;
+    }
+}
+
+@media only screen and (max-width: 620px) and (min-width: 400px) {
+    table.body .columns,
+    table.body .column {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
 }
