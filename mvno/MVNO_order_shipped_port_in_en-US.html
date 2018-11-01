@@ -1,13 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="http://localhost:9778/css/foundation-emails.css">
-    <link rel="stylesheet" type="text/css" href="http://localhost:9778/css/mvnoemails.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" type="text/css" href="https://idtdesign.github.io/emails/css/foundation-emails.css" />
+    <link rel="stylesheet" type="text/css" href="https://idtdesign.github.io/emails/css/mvnoemails.css" />
 </head>
 <body>
-    <table class="body" data-made-with-foundation="">
+    <table class="body" data-made-with-foundation>
         <tr>
             <td class="float-center" align="center" valign="top">
                 <center>
@@ -38,8 +38,21 @@
                     </tr>
                 </tbody>
             </table>
-            <p class="text-left">2nd Reminder from Boss Revolution Mobile:</p>
-            <p class="text-left">Your $5 monthly charge is due today. Add at least $5 to your account to avoid a disruption in service.</p>
+            <h1 class="text-center salutation">Your order has shipped!</h1>
+            <p class="text-left">Dear {First name},</p>
+            <p class="text-left">Thank you for your recent order on BossRevolutionMobile.com</p>
+            <p class="text-left">Your order (Order number: {OrderNumber}) has shipped. Your shipping tracking number is <strong>{ShippingTrackerNumber}</strong>.</p>
+            <p class="text-left"><a href="{tracklink}">Track shipping status</a></p>
+            <table class="spacer">
+                <tbody>
+                    <tr>
+                        <td height="40px" style="font-size:40px;line-height:40px;">&#xA0;</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4 class="text-left">Bringing your number to Boss Revolution Mobile</h4>
+            <p>Once you get your order, click the ‘activate my phone’ button below and follow the simple step-by-step on-screen instructions.</p>
+            <p>Do not power the phone on until you are finished signing up.</p>
             <table class="spacer">
                 <tbody>
                     <tr>
@@ -53,13 +66,38 @@
                         <td>
                             <table>
                                 <tr>
-                                    <td><a href="https://bossrevolutionmobile.com/en-us/{token}">Open My Account</a></td>
+                                    <td><a href="https://bossrevolutionmobile.com/en-us/activation.html&={ActivationCode}">Activate my phone</a></td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
                 </table>
             </center>
+            <table class="spacer">
+                <tbody>
+                    <tr>
+                        <td height="40px" style="font-size:40px;line-height:40px;">&#xA0;</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Alternatively, you can go to BossRevolutionMobile.com, click on ‘<a href="https://bossrevolutionmobile.com/en-us/activation.html">Join Us</a>’ and follow the on-screen instructions. When asked for your Activation Code use:</p>
+            <h4 class="text-left">{ActivationCode}</h4>
+            <table class="spacer">
+                <tbody>
+                    <tr>
+                        <td height="40px" style="font-size:40px;line-height:40px;">&#xA0;</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Tip:</strong> To move your number, make sure you have the account number (sometimes your account number is your phone number) and PIN of your current mobile provider. If you don’t have that information you will need to contact your provider to get it before activating your service!</p>
+            <table class="spacer">
+                <tbody>
+                    <tr>
+                        <td height="40px" style="font-size:40px;line-height:40px;">&#xA0;</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="text-left">Need help activating your device? Call <strong>1-800-319-1589</strong> for assistance.</p>
         </th>
     </tr>
 </table>
@@ -78,8 +116,8 @@
                                                 <tr>
                                                     <td class="mvno-logo">
                                                         
-                                                        <a href="https://www.bossrevolutionmobile.com/en-us" target="_blank" class="text-center">
-                                                            <img src="http://localhost:9778/mvno/images/bossrevolution-mobile-horizontal@2x.png" class="float-center" alt="BOSS" width="134" height="65">
+                                                        <a href="https://bossrevolutionmobile.com/en-us/" target="_blank" class="text-center">
+                                                            <img src="https://idtdesign.github.io/emails/mvno/images/bossrevolution-mobile-horizontal@2x.png" class="float-center" alt="BOSS" width="134" height="65"/>
                                                         </a>
                                                         
 
@@ -88,7 +126,7 @@
                                                 <tr>
                                                     <td class="text-center bosslink-wrapper" align="center">
                                                         
-                                                        <a href="https://www.bossrevolutionmobile.com/en-us" target="_blank" class="text-center bosslink"><strong class="black">bossrevolution</strong><strong class="red">mobile</strong>.com</a>
+                                                        <a href="https://bossrevolutionmobile.com/en-us/" target="_blank" class="text-center bosslink"><strong class="black">bossrevolution</strong><strong class="red">mobile</strong>.com</a>
                                                         
                                                     </td>
                                                     <td class="expander"></td>
