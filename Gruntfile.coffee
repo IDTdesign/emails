@@ -25,6 +25,7 @@ module.exports = (grunt) =>
 					expand: true,
 					cwd: 'out/mvno/'
 					src: ['*.html']
+					css: ['src/files/css/foundation-emails.css', 'src/files/css/mvnoemails.css']
 					dest: 'src/raw/mvno/inlined/'
 				]
 			retailersmvno:
@@ -69,11 +70,13 @@ module.exports = (grunt) =>
 				options:
 					stdout: true
 				command: 'docpad generate --env static'
+			gulp:
+				command: 'gulp'
 			run:
 				options:
 					stdout: true
 					async: true
 				command: 'docpad run'
 
-	grunt.registerTask 'deploy',  ['shell:clean', 'shell:ghpages', 'inlinecss', 'gh-pages']
+	grunt.registerTask 'deploy',  ['shell:clean', 'shell:ghpages', 'shell:gulp', 'gh-pages']
 	grunt.registerTask 'default', ['inlinecss']
