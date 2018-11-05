@@ -287,3 +287,18 @@ sup {
 .pad-bottom-no {
     padding-bottom: 0;
 }
+
+.vertical-bottom {
+    vertical-align: bottom;
+}
+
+.table-receipt th {
+    padding-right: 16px;
+}
+.table-receipt td {
+    vertical-align: bottom;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
