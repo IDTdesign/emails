@@ -43,11 +43,28 @@ title: Email templates
 
 ### Device Store
 
+
+New number:
+
+
 * MVNO_order_confirmation_new_number_en-US — [development](mvno/MVNO_order_confirmation_new_number_en-US.html) | [INLINED](mvno/inlined/MVNO_order_confirmation_new_number_en-US.html)
+* MVNO_order_confirmation_new_number_es-US — [development](mvno/MVNO_order_confirmation_new_number_es-US.html) | [INLINED](mvno/inlined/MVNO_order_confirmation_new_number_es-US.html)
+
+
 * MVNO_order_shipped_new_number_en-US — [development](mvno/MVNO_order_shipped_new_number_en-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_new_number_en-US.html)
+* MVNO_order_shipped_new_number_es-US — [development](mvno/MVNO_order_shipped_new_number_es-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_new_number_es-US.html)
+
+
+Port-in:
+
 
 * MVNO_order_confirmation_port_in_en-US — [development](mvno/MVNO_order_confirmation_port_in_en-US.html) | [INLINED](mvno/inlined/MVNO_order_confirmation_port_in_en-US.html)
+* MVNO_order_confirmation_port_in_es-US — [development](mvno/MVNO_order_confirmation_port_in_es-US.html) | [INLINED](mvno/inlined/MVNO_order_confirmation_port_in_es-US.html)
+
+
 * MVNO_order_shipped_port_in_en-US — [development](mvno/MVNO_order_shipped_port_in_en-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_port_in_en-US.html)
+* MVNO_order_shipped_port_in_es-US — [development](mvno/MVNO_order_shipped_port_in_es-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_port_in_es-US.html)
+
 
 ## Retailers MVNO (retailers.bossrevolution.com)
 

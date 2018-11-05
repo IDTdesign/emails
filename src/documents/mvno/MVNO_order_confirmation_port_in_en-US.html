@@ -17,7 +17,7 @@ lang: en
             <p class="text-left">Dear {First name},</p>
             <p class="text-left">Your order has been successfully placed and we’re processing it now. It usually takes us 1-2 business days to process and ship orders. Once we ship your order, we’ll notify you and send you tracking information.</p>
             <h4 class="text-left">Order details</h4>
-            <table>
+            <table class="table-receipt">
                 <tr>
                     <th>Order number:</th>
                     <td>{OrderNumber}</td>
@@ -54,7 +54,7 @@ lang: en
                     </tr>
                 </tbody>
             </table>
-            <p>Track status of your order at <a href="https://bossrevolutionmobile.com/en-us/order-status.html&={OrderNumber}">Order Status</a> page.</p>
+            <p><a href="https://bossrevolutionmobile.com/en-us/order-status/{OrderNumber}">Order Status</a></p>
             <table class="spacer">
                 <tbody>
                     <tr>
@@ -64,7 +64,7 @@ lang: en
             </table>
 
 
-            <p class="text-left">If you have any questions or problems with the phone that you bought from us please call  <strong>1-800-319-1589</strong> for assistance.</p>
+            <p class="text-left">If you have any questions or problems with the phone that you bought from us please call  <strong class="nowrap">1-800-319-1589</strong> for assistance.</p>
         </th>
     </tr>
 </table>
