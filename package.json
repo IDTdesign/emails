@@ -36,6 +36,7 @@
     "grunt-shell": "^2.1.0",
     "gulp": "^4.0.0",
     "gulp-inline-css": "^3.3.1",
+    "gulp-string-replace": "^1.1.2",
     "load-grunt-tasks": "^3.5.2",
     "time-grunt": "^1.4.0"
   },

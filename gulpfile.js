@@ -1,8 +1,9 @@
 const { src, dest, series, parallel } = require('gulp');
 var gulp = require('gulp'),
     inlineCss = require('gulp-inline-css');
+    replace = require('gulp-string-replace');
 
-function inlinecssBossdtc(cb) {
+function inlinecssBossdtc() {
     return src('out/bossdtc/*.html')
     .pipe(inlineCss({
         applyStyleTags: true,
@@ -10,11 +11,11 @@ function inlinecssBossdtc(cb) {
         removeStyleTags: true,
         removeLinkTags: true
     }))
+    .pipe(replace('http://localhost:9778', 'https://idtdesign.github.io/emails'))
     .pipe(dest('src/raw/bossdtc/inlined'));
-    cb();
 }
 
-function inlinecssMvno(cb) {
+function inlinecssMvno() {
     return src('out/mvno/*.html')
     .pipe(inlineCss({
         applyStyleTags: true,
@@ -22,11 +23,11 @@ function inlinecssMvno(cb) {
         removeStyleTags: true,
         removeLinkTags: true
     }))
+    .pipe(replace('http://localhost:9778', 'https://idtdesign.github.io/emails'))
     .pipe(dest('src/raw/mvno/inlined'));
-    cb();
 }
 
-function inlinecssRetailersMvno(cb) {
+function inlinecssRetailersMvno() {
     return src('out/retailersmvno/*.html')
     .pipe(inlineCss({
         applyStyleTags: true,
@@ -34,11 +35,11 @@ function inlinecssRetailersMvno(cb) {
         removeStyleTags: true,
         removeLinkTags: true
     }))
+    .pipe(replace('http://localhost:9778', 'https://idtdesign.github.io/emails'))
     .pipe(dest('src/raw/retailersmvno/inlined'));
-    cb();
 }
 
-function inlinecssRetailers(cb) {
+function inlinecssRetailers() {
     return src('out/retailers/*.html')
     .pipe(inlineCss({
         applyStyleTags: true,
@@ -46,8 +47,8 @@ function inlinecssRetailers(cb) {
         removeStyleTags: true,
         removeLinkTags: true
     }))
+    .pipe(replace('http://localhost:9778', 'https://idtdesign.github.io/emails'))
     .pipe(dest('src/raw/retailers/inlined'));
-    cb();
 }
 
 exports.bossdtc = inlinecssBossdtc;
