@@ -58,9 +58,9 @@
                                                 <tr>
                                                     <td class="text-center bosslink-wrapper" align="center">
                                                         <% if (@document.lang == 'es') : %>
-                                                        <a href="https://bossrevolutionmobile.com/es-us/" target="_blank" class="text-center bosslink"><strong class="black">bossrevolution</strong><strong class="red">mobile</strong>.com</a>
+                                                        <a href="https://bossrevolutionmobile.com/es-us/" target="_blank" class="text-center bosslink"><strong class="black">BOSS</strong><strong class="red">REVOLUTION</strong><strong class="black">MOBILE.COM</strong></a>
                                                         <% else : %>
-                                                        <a href="https://bossrevolutionmobile.com/en-us/" target="_blank" class="text-center bosslink"><strong class="black">bossrevolution</strong><strong class="red">mobile</strong>.com</a>
+                                                        <a href="https://bossrevolutionmobile.com/en-us/" target="_blank" class="text-center bosslink"><strong class="black">BOSS</strong><strong class="red">REVOLUTION</strong><strong class="black">MOBILE.COM</strong></a>
                                                         <% end %>
                                                     </td>
                                                     <td class="expander"></td>

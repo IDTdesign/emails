@@ -2,6 +2,7 @@ const { src, dest, series, parallel } = require('gulp');
 var gulp = require('gulp'),
     inlineCss = require('gulp-inline-css');
     replace = require('gulp-string-replace');
+    htmlmin = require('gulp-htmlmin');
 
 function inlinecssBossdtc() {
     return src('out/bossdtc/*.html')
@@ -12,6 +13,7 @@ function inlinecssBossdtc() {
         removeLinkTags: true
     }))
     .pipe(replace('http://localhost:9778', 'https://idtdesign.github.io/emails'))
+    .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(dest('src/raw/bossdtc/inlined'));
 }
 
@@ -24,6 +26,7 @@ function inlinecssMvno() {
         removeLinkTags: true
     }))
     .pipe(replace('http://localhost:9778', 'https://idtdesign.github.io/emails'))
+    .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(dest('src/raw/mvno/inlined'));
 }
 
@@ -36,6 +39,7 @@ function inlinecssRetailersMvno() {
         removeLinkTags: true
     }))
     .pipe(replace('http://localhost:9778', 'https://idtdesign.github.io/emails'))
+    .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(dest('src/raw/retailersmvno/inlined'));
 }
 
@@ -48,6 +52,7 @@ function inlinecssRetailers() {
         removeLinkTags: true
     }))
     .pipe(replace('http://localhost:9778', 'https://idtdesign.github.io/emails'))
+    .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(dest('src/raw/retailers/inlined'));
 }
 
