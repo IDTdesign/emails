@@ -45,11 +45,11 @@
                                                     <td class="mvno-logo">
                                                         <% if (@document.lang == 'es') : %>
                                                         <a href="https://bossrevolutionmobile.com/es-us/" target="_blank" class="text-center">
-                                                            <img src="<%= @getUrl('/mvno/images/bossrevolution-mobile-horizontal@2x.png')%>" class="float-center" alt="BOSS" width="134" height="65"/>
+                                                            <img src="<%= @getUrl('/mvno/images/brm-es.png')%>" class="float-center" alt="BOSS Revolution Mobile" width="115" height="145"/>
                                                         </a>
                                                         <% else : %>
                                                         <a href="https://bossrevolutionmobile.com/en-us/" target="_blank" class="text-center">
-                                                            <img src="<%= @getUrl('/mvno/images/bossrevolution-mobile-horizontal@2x.png')%>" class="float-center" alt="BOSS" width="134" height="65"/>
+                                                            <img src="<%= @getUrl('/mvno/images/brm-en.png')%>" class="float-center" alt="BOSS Revolution Mobile" width="115" height="145"/>
                                                         </a>
                                                         <% end %>
 

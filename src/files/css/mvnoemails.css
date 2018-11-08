@@ -15,12 +15,11 @@ td.large-12 center, th.large-12 center {
 }
 /* - */
 .mvno-logo {
-    padding-right: 24px;
 }
 
 .mvno-logo img {
-    width: 134px !important;
-    height: 65px !important;
+    width: 115px !important;
+    height: 145px !important;
 }
 
 /* header */
