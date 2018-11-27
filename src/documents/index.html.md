@@ -88,6 +88,19 @@ SIM order:
 * MVNO_order_shipped_sim_es-US — [development](mvno/MVNO_order_shipped_sim_es-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_sim_es-US.html)
 
 
+Order cancelled:
+
+
+* MVNO_order_cancelled_en-US — [development](mvno/MVNO_order_cancelled_en-US.html) | [INLINED](mvno/inlined/MVNO_order_cancelled_en-US.html)
+* MVNO_order_cancelled_es-US — [development](mvno/MVNO_order_cancelled_es-US.html) | [INLINED](mvno/inlined/MVNO_order_cancelled_es-US.html)
+
+
+Return received:
+
+
+* MVNO_return_received_en-US - [development](mvno/MVNO_return_received_en-US.html) | [INLINED](mvno/inlined/MVNO_return_received_en-US.html)
+* MVNO_return_received_es-US - [development](mvno/MVNO_return_received_es-US.html) | [INLINED](mvno/inlined/MVNO_return_received_es-US.html)
+
 ## Retailers MVNO (retailers.bossrevolution.com)
 
 ### Activation
