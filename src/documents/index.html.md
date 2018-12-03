@@ -95,11 +95,16 @@ Order cancelled:
 * MVNO_order_cancelled_es-US — [development](mvno/MVNO_order_cancelled_es-US.html) | [INLINED](mvno/inlined/MVNO_order_cancelled_es-US.html)
 
 
-Return received:
+Returns:
+
+
+* MVNO_RMA_generated_en-US — [development](mvno/MVNO_RMA_generated_en-US.html) | [INLINED](mvno/inlined/MVNO_RMA_generated_en-US.html)
+* MVNO_RMA_generated_es-US — [development](mvno/MVNO_RMA_generated_es-US.html) | [INLINED](mvno/inlined/MVNO_RMA_generated_es-US.html)
 
 
 * MVNO_return_received_en-US - [development](mvno/MVNO_return_received_en-US.html) | [INLINED](mvno/inlined/MVNO_return_received_en-US.html)
 * MVNO_return_received_es-US - [development](mvno/MVNO_return_received_es-US.html) | [INLINED](mvno/inlined/MVNO_return_received_es-US.html)
+
 
 ## Retailers MVNO (retailers.bossrevolution.com)
 
