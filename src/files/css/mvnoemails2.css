@@ -1,0 +1,307 @@
+/* Custom fonts */
+
+body, table.body, h1, h2, h3, h4, h5, h6, p, td, th, a {
+    font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+}
+
+hr {
+    border: 1px solid #DDD;
+    border-bottom: none;
+    margin-bottom: 18px;
+}
+
+td.large-12 center, th.large-12 center {
+    min-width: 0;
+}
+/* - */
+.mvno-logo {
+}
+
+.mvno-logo img {
+    width: 115px !important;
+    height: 145px !important;
+}
+
+/* header */
+.header {
+    background: #E21A23;
+    padding: 0 !important;
+}
+
+.header-images {
+    width: 83px;
+    padding: 8px 16px !important;
+}
+
+.header-images img {
+    float: none;
+    width: 82.45px !important;
+    height: 40px !important;
+}
+
+.header-center {
+    width: auto;
+}
+
+.header-link {
+    width: 100px;
+    padding: 8px 16px;
+    vertical-align: middle;
+    background: #b4151c;
+}
+
+.header-link a {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+/* backgrounds */
+.paper {
+    border-top: none;
+    padding-top: 0 !important;
+}
+
+.greypane {
+    background: #ebebeb;
+}
+
+.whitepane {
+    background: #FFF;
+}
+
+.redpane {
+    background: #dd1a23;
+}
+
+.shadow {
+    padding: 0 !important;
+}
+
+/* custom text colors */
+.red {
+    color: #cf030c !important;
+}
+
+.black {
+    color: #000 !important;
+}
+
+.white {
+    color: #FFF !important;
+}
+
+
+/* buttons */
+.mvno-btn.mvno-btn {
+    background-color: #fff;
+    color: #E21A23;
+    border-width: 1px;
+    border-color: #E21A23;
+}
+
+.mainheader {
+    color: #666;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 30px 0 15px 0;
+}
+
+.salutaion .mainheader {
+    padding-top: 10px;
+}
+
+.salutaion__header {
+    display: inline-block;
+    margin: 0;
+    width: auto;
+    padding: 20px 40px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #666;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.subtitle {
+    font-size: 17px;
+    margin: 0;
+    padding: 5px 0 5px;
+}
+
+.subtitle-stripe {
+    font-size: 18px;
+    margin: 0;
+    padding: 0px 30px 5px !important;
+}
+
+.subsubtitle {
+    font-size: 15px;
+    margin: 0;
+    padding: 5px 0 5px;
+}
+
+/*  */
+.fullwidth {
+    width: 100%;
+}
+
+.padding {
+    width: 24px;
+}
+
+.data-cell {
+    padding: 10px 15px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.greypane .data-cell {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.data-row {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.label {
+    color: #686868;
+    font-size: 12px;
+}
+
+.data-value {
+    color: #333333;
+    font-size: 16px;
+}
+
+.data-value-small {
+    font-size: 13px;
+}
+
+.icon {
+    margin-top: 3px;
+    margin-right: 8px;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    background-color: #b00009;
+    border-radius: 3px;
+}
+
+.data-service {
+    color: #333333;
+    font-size: 15px;
+}
+
+.data-img img {
+    float: none;
+    display: inline;
+    padding-bottom: 15px;
+}
+
+.bosslink-wrapper {
+    padding: 15px !important;
+    white-space: nowrap;
+}
+
+a.bosslink, a.bosslink:link, a.bosslink:visited, a.bosslink:hover, a.bosslink:active {
+    color: #333 !important;
+}
+
+.rounded-button {
+    border-radius: 5px;
+}
+
+.sign-text {
+    padding: 15px 0 !important;
+    font-size: 17px;
+    color: #333;
+}
+
+.idt-logo {
+    vertical-align: middle;
+}
+
+.idt-logo img {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+}
+
+.legal-notes {
+    padding: 0 30px !important;
+    font-size: 10px;
+    line-height: 1.2;
+    color: #666;
+    vertical-align: middle;
+}
+
+.spacer {
+    width: 2%;
+}
+
+.warning {
+    border: 1px solid #f89ea0;
+    background: #fff4f4;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.ph0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.pl0 {
+    padding-left: 0;
+}
+
+.pr0 {
+    padding-right: 0;
+}
+
+.data-sep {
+    padding: 10px 0;
+}
+
+.data-v-sep {
+    height: 100%;
+    border-left: 1px solid #CCCCCC;
+}
+
+.smaller {
+    font-size: 18px;
+}
+
+sup {
+    position: relative;
+    top: -.15em;
+    vertical-align: top;
+}
+
+.link {
+    line-height: 2;
+    color: #006cd8;
+}
+
+.pad-bottom-no {
+    padding-bottom: 0;
+}
+
+.vertical-bottom {
+    vertical-align: bottom;
+}
+
+.table-receipt th {
+    padding-right: 16px;
+}
+.table-receipt td {
+    vertical-align: bottom;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
