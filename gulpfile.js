@@ -4,7 +4,8 @@ var gulp = require('gulp'),
     replace = require('gulp-string-replace');
     htmlmin = require('gulp-htmlmin');
 
-function inlinecssBossdtc() {
+function inlinecssBossdtc(cb) {
+    cb();
     return src('out/bossdtc/*.html')
     .pipe(inlineCss({
         applyStyleTags: true,
@@ -17,7 +18,8 @@ function inlinecssBossdtc() {
     .pipe(dest('src/raw/bossdtc/inlined'));
 }
 
-function inlinecssMvno() {
+function inlinecssMvno(cb) {
+    cb();
     return src('out/mvno/*.html')
     .pipe(inlineCss({
         applyStyleTags: true,
@@ -30,7 +32,8 @@ function inlinecssMvno() {
     .pipe(dest('src/raw/mvno/inlined'));
 }
 
-function inlinecssRetailersMvno() {
+function inlinecssRetailersMvno(cb) {
+    cb();
     return src('out/retailersmvno/*.html')
     .pipe(inlineCss({
         applyStyleTags: true,
@@ -43,7 +46,8 @@ function inlinecssRetailersMvno() {
     .pipe(dest('src/raw/retailersmvno/inlined'));
 }
 
-function inlinecssRetailers() {
+function inlinecssRetailers(cb) {
+    cb();
     return src('out/retailers/*.html')
     .pipe(inlineCss({
         applyStyleTags: true,
