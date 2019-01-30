@@ -37,11 +37,11 @@
                                         <td class="mvno-footer">
                                             <% if (@document.lang == 'es') : %>
                                             <a href="https://bossrevolutionmobile.com/es-us/" target="_blank" class="text-center">
-                                                <img src="<%= @getUrl('/mvno/images/brm-footer-es@2x.png')%>" class="float-center" alt="https://bossrevolutionmobile.com" width="580" />
+                                                <img src="<%= @getUrl('/mvno/images/brm-footer-es@2x.png')%>"  alt="https://bossrevolutionmobile.com" width="580" />
                                             </a>
                                             <% else : %>
                                             <a href="https://bossrevolutionmobile.com/en-us/" target="_blank" class="text-center">
-                                                <img src="<%= @getUrl('/mvno/images/brm-footer-en@2x.png')%>" class="float-center" alt="https://bossrevolutionmobile.com" width="580" />
+                                                <img src="<%= @getUrl('/mvno/images/brm-footer-en@2x.png')%>"  alt="https://bossrevolutionmobile.com" width="580" />
                                             </a>
                                             <% end %>
                                         </td>
