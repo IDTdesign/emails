@@ -9,6 +9,7 @@ Install if not installed:
 * Node.js
 * git
 * Gulp (gulp-cli)
+* Grunt (grunt-cli)
 
 and then run `npm install`.
 
