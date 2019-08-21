@@ -8,6 +8,7 @@ Install if not installed:
 
 * Node.js
 * git
+* Gulp (gulp-cli)
 * Grunt (grunt-cli)
 
 and then run `npm install`.
@@ -16,7 +17,11 @@ and then run `npm install`.
 
 `docpad run` to start project on http://localhost:9778.
 
-`grunt inlinecss` to generate inlined emails.
+`gulp mvno` to generate inlined MVNO emails.
+`gulp bossdtc` to generate inlined BOSSDTC emails.
+`gulp retailersmvno` to generate inlined RETAILERSMVNO emails.
+`gulp retailers` to generate inlined RETAILERS emails.
+
 
 ## Deploy
 
