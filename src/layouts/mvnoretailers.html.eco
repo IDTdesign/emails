@@ -44,11 +44,11 @@
                                                 <tr>
                                                     <td class="mvno-logo">
                                                         <% if (@document.lang == 'es') : %>
-                                                        <a href="https://www.bossrevolutionmobile.com/es-us" target="_blank" class="text-center">
+                                                        <a href="https://www.bosswireless.com/es-us" target="_blank" class="text-center">
                                                             <img src="<%= @getUrl('/mvno/images/bossrevolution-mobile-horizontal@2x.png')%>" class="float-center" alt="BOSS" width="134" height="65"/>
                                                         </a>
                                                         <% else : %>
-                                                        <a href="https://www.bossrevolutionmobile.com/en-us" target="_blank" class="text-center">
+                                                        <a href="https://www.bosswireless.com/en-us" target="_blank" class="text-center">
                                                             <img src="<%= @getUrl('/mvno/images/bossrevolution-mobile-horizontal@2x.png')%>" class="float-center" alt="BOSS" width="134" height="65"/>
                                                         </a>
                                                         <% end %>
@@ -58,9 +58,9 @@
                                                 <tr>
                                                     <td class="text-center bosslink-wrapper" align="center">
                                                         <% if (@document.lang == 'es') : %>
-                                                        <a href="https://www.bossrevolutionmobile.com/es-us" target="_blank" class="text-center bosslink"><strong class="black">bossrevolution</strong><strong class="red">mobile</strong>.com</a>
+                                                        <a href="https://www.bosswireless.com/es-us" target="_blank" class="text-center bosslink"><strong class="black">boss</strong><strong class="red">wireless</strong>.com</a>
                                                         <% else : %>
-                                                        <a href="https://www.bossrevolutionmobile.com/en-us" target="_blank" class="text-center bosslink"><strong class="black">bossrevolution</strong><strong class="red">mobile</strong>.com</a>
+                                                        <a href="https://www.bosswireless.com/en-us" target="_blank" class="text-center bosslink"><strong class="black">boss</strong><strong class="red">wireless</strong>.com</a>
                                                         <% end %>
                                                     </td>
                                                     <td class="expander"></td>

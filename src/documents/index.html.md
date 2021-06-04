@@ -5,7 +5,7 @@ title: Email templates
 
 # Email Templates
 
-## MVNO (bossrevolutionmobile.com)
+## MVNO (bosswireless.com)
 
 ### Activation
 
@@ -19,6 +19,13 @@ title: Email templates
 
 * MVNO_activation_success_en-US — [development](mvno/MVNO_activation_success_en-US.html) | [INLINED](mvno/inlined/MVNO_activation_success_en-US.html)
 * MVNO_activation_success_es-US — [development](mvno/MVNO_activation_success_es-US.html) | [INLINED](mvno/inlined/MVNO_activation_success_es-US.html)
+
+### Sim purchase
+
+* MVNO_sim_purchase_customer_confirmation_en-US_v2 — [development](mvno/MVNO_sim_purchase_customer_confirmation_en-US_v2.html) | [INLINED](mvno/inlined/MVNO_sim_purchase_customer_confirmation_en-US_v2.html)
+* MVNO_sim_purchase_customer_confirmation_es-US_v2 — [development](mvno/MVNO_sim_purchase_customer_confirmation_es-US_v2.html) | [INLINED](mvno/inlined/MVNO_sim_purchase_customer_confirmation_es-US_v2.html)
+
+* MVNO_sim_purchase_rossman_notification_v2 — [development](mvno/MVNO_sim_purchase_rossman_notification_v2.html) | [INLINED](mvno/inlined/MVNO_sim_purchase_rossman_notification_v2.html)
 
 ### Reminders
 
