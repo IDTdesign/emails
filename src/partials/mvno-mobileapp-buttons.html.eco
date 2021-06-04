@@ -1,9 +1,21 @@
 <p class="text-center">
     <% if (@document.lang == 'en') : %>
-    Use our FREE app to maximize your savings.
+    <a href="https://www.bosswireless.com/en-us/login.html" target="_blank" class="no-link">Sign in online</a> or visit a Boss Revolution retailer to add funds and manage your account.
+    <br />
+    <br />
+    To set up and retrieve your voicemail simply dial your own number.
+    <br />
+    <br />
+    Use our FREE app for all of your calls, including voicemail, to maximize your savings.
     <% end %>
     <% if (@document.lang == 'es') : %>
-    Use nuestra app GRATUITA y maximice su ahorro.
+    <a href="https://www.bosswireless.com/es-us/login.html" target="_blank" class="no-link">Inicie sesión en línea</a> visite un minorista de Boss Revolution para añadir fondos y manejar su cuenta.
+    <br />
+    <br />
+    Para configurar y recuperar su correo de voz, simplemente llame a su propio número teléfonico.
+    <br />
+    <br />
+    Use nuestra app GRATUITA para todas sus llamadas, incluyendo correo de voz, para aumentar sus ahorros.
     <% end %>
 </p>
 <table class="spacer">
@@ -18,19 +30,19 @@
         <tr>
             <td class="text-right">
                 <% if (@document.lang == 'en') : %>
-                <a href="#appstore"><img src="<%= @getUrl('/mvno/images/btn-appstore.svg')%>" data-inline-ignore alt="Download on the AppStore" align="right" class="float-right rounded-button" width="135" height="40"/></a>
+                <a href="https://itunes.apple.com/us/app/boss-revolution-simple-easy/id586745548"><img src="http://cdn.bossrevolution.com/Content/img/btn-appstore.png" data-inline-ignore alt="Download on the AppStore" align="right" class="float-right rounded-button" width="135" height="40"/></a>
                 <% end %>
                 <% if (@document.lang == 'es') : %>
-                <a href="#appstore"><img src="<%= @getUrl('/mvno/images/btn-appstore.svg')%>" data-inline-ignore alt="Download on the AppStore" align="right" class="float-right rounded-button" width="135" height="40"/></a>
+                <a href="https://itunes.apple.com/us/app/boss-revolution-simple-easy/id586745548"><img src="http://cdn.bossrevolution.com/Content/img/btn-appstore-es.png" data-inline-ignore alt="Download on the AppStore" align="right" class="float-right rounded-button" width="135" height="40"/></a>
                 <% end %>
             </td>
             <td class="padding"></td>
             <td class="text-left">
                 <% if (@document.lang == 'en') : %>
-                <a href="#gplay"><img src="<%= @getUrl('/mvno/images/btn-gplay.svg')%>" data-inline-ignore alt="Get it on Google Play" align="left" class="float-left rounded-button" width="135" height="40"/></a>
+                <a href="https://play.google.com/store/apps/details?id=net.idt.um.android.bossrevapp"><img src="http://cdn.bossrevolution.com/Content/img/btn-gplay.png" data-inline-ignore alt="Get it on Google Play" align="left" class="float-left rounded-button" width="135" height="40"/></a>
                 <% end %>
                 <% if (@document.lang == 'es') : %>
-                <a href="#gplay"><img src="<%= @getUrl('/mvno/images/btn-gplay.svg')%>" data-inline-ignore alt="Get it on Google Play" align="left" class="float-left rounded-button" width="135" height="40"/></a>
+                <a href="https://play.google.com/store/apps/details?id=net.idt.um.android.bossrevapp"><img src="http://cdn.bossrevolution.com/Content/img/btn-gplay-es.png" data-inline-ignore alt="Get it on Google Play" align="left" class="float-left rounded-button" width="135" height="40"/></a>
                 <% end %>
             </td>
         </tr>

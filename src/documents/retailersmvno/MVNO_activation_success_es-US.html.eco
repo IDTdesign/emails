@@ -13,9 +13,9 @@ lang: es
                     </tr>
                 </tbody>
             </table>
-            <p class="text-left">Bienvenido a Boss Revolution Móvil.</p>
-            <p class="text-left">Su código de seguridad para bossrevolutionmobile.com y correo de voz es</p>
-            <h4 class="text-left">XXXX</h4>
+            <p class="text-center">¡Bienvenidos a Boss Wireless!</p>
+            <p class="text-center">Su código de seguridad para <a href="https://www.bosswireless.com/es-us" target="_blank" class="no-link">bosswireless.com</a> es</p>
+            <h4 class="text-center">%sec-code%</h4>
             <table class="spacer">
                 <tbody>
                     <tr>
