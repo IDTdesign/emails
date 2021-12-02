@@ -3,19 +3,19 @@
     <a href="https://www.bosswireless.com/en-us/login.html" target="_blank" class="no-link">Sign in online</a> or visit a Boss Revolution retailer to add funds and manage your account.
     <br />
     <br />
-    To set up and retrieve your voicemail simply dial your own number.
+    To set up and retrieve your voicemail simply dial your own number or use the voicemail app that comes with your phone.
     <br />
     <br />
-    Use our FREE app for all of your calls, including voicemail, to maximize your savings.
+    Use our FREE app for all of your calls. For customer service dial 611.
     <% end %>
     <% if (@document.lang == 'es') : %>
     <a href="https://www.bosswireless.com/es-us/login.html" target="_blank" class="no-link">Inicie sesión en línea</a> visite un minorista de Boss Revolution para añadir fondos y manejar su cuenta.
     <br />
     <br />
-    Para configurar y recuperar su correo de voz, simplemente llame a su propio número teléfonico.
+    Para configurar y recuperar tu correo de voz, simplemente marca tu propio número de teléfono o usa la aplicación de correo de voz que viene instalada en tu teléfono.
     <br />
     <br />
-    Use nuestra app GRATUITA para todas sus llamadas, incluyendo correo de voz, para aumentar sus ahorros.
+    Use nuestra app GRATUITA para todas sus llamadas. Para comunicarse con el departamento de servicio al cliente marque el 611.
     <% end %>
 </p>
 <table class="spacer">
