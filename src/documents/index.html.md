@@ -27,6 +27,23 @@ title: Email templates
 
 * MVNO_sim_purchase_rossman_notification_v2 — [development](mvno/MVNO_sim_purchase_rossman_notification_v2.html) | [INLINED](mvno/inlined/MVNO_sim_purchase_rossman_notification_v2.html)
 
+### Tier switcher
+
+* MVNO_tier_switcher_monthly_report — [development](mvno/MVNO_tier_switcher_monthly_report.html) | [INLINED](mvno/inlined/MVNO_tier_switcher_monthly_report.html)
+
+### Prc
+
+* MVNO_prc_l5_email_en-US — [development](mvno/MVNO_prc_l5_email_en-US.html) | [INLINED](mvno/inlined/MVNO_prc_l5_email_en-US.html)
+* MVNO_prc_l5_email_es-US — [development](mvno/MVNO_prc_l5_email_es-US.html) | [INLINED](mvno/inlined/MVNO_prc_l5_email_es-US.html)
+
+
+* MVNO_prc_l6_email_en-US — [development](mvno/MVNO_prc_l6_email_en-US.html) | [INLINED](mvno/inlined/MVNO_prc_l6_email_en-US.html)
+* MVNO_prc_l6_email_es-US — [development](mvno/MVNO_prc_l6_email_es-US.html) | [INLINED](mvno/inlined/MVNO_prc_l6_email_es-US.html)
+
+
+* MVNO_prc_l7_email_en-US — [development](mvno/MVNO_prc_l7_email_en-US.html) | [INLINED](mvno/inlined/MVNO_prc_l7_email_en-US.html)
+* MVNO_prc_l7_email_es-US — [development](mvno/MVNO_prc_l7_email_es-US.html) | [INLINED](mvno/inlined/MVNO_prc_l7_email_es-US.html)
+
 ### Reminders
 
 * MVNO_reminder_no-auto-recharge_en-US — [development](mvno/MVNO_reminder_no-auto-recharge_en-US.html) | [INLINED](mvno/inlined/MVNO_reminder_no-auto-recharge_en-US.html)
@@ -47,93 +64,6 @@ title: Email templates
 
 * MVNO_reminder_4_en-US — [development](mvno/MVNO_reminder_4_en-US.html) | [INLINED](mvno/inlined/MVNO_reminder_4_en-US.html)
 * MVNO_reminder_4_es-US — [development](mvno/MVNO_reminder_4_es-US.html) | [INLINED](mvno/inlined/MVNO_reminder_4_es-US.html)
-
-### Device Store
-
-
-New number:
-
-
-* MVNO_order_confirmation_new_number_en-US — [development](mvno/MVNO_order_confirmation_new_number_en-US.html) | [INLINED](mvno/inlined/MVNO_order_confirmation_new_number_en-US.html)
-* MVNO_order_confirmation_new_number_es-US — [development](mvno/MVNO_order_confirmation_new_number_es-US.html) | [INLINED](mvno/inlined/MVNO_order_confirmation_new_number_es-US.html)
-
-
-* MVNO_order_shipped_new_number_en-US — [development](mvno/MVNO_order_shipped_new_number_en-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_new_number_en-US.html)
-* MVNO_order_shipped_new_number_es-US — [development](mvno/MVNO_order_shipped_new_number_es-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_new_number_es-US.html)
-
-
-Port-in:
-
-
-* MVNO_order_confirmation_port_in_en-US — [development](mvno/MVNO_order_confirmation_port_in_en-US.html) | [INLINED](mvno/inlined/MVNO_order_confirmation_port_in_en-US.html)
-* MVNO_order_confirmation_port_in_es-US — [development](mvno/MVNO_order_confirmation_port_in_es-US.html) | [INLINED](mvno/inlined/MVNO_order_confirmation_port_in_es-US.html)
-
-
-* MVNO_order_shipped_port_in_en-US — [development](mvno/MVNO_order_shipped_port_in_en-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_port_in_en-US.html)
-* MVNO_order_shipped_port_in_es-US — [development](mvno/MVNO_order_shipped_port_in_es-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_port_in_es-US.html)
-
-
-PayTomorrow New number:
-
-
-* MVNO_order_confirmation_new_number_paytomorrow_en-US — [development](mvno/MVNO_order_confirmation_new_number_paytomorrow_en-US.html) | [INLINED](mvno/inlined/MVNO_order_confirmation_new_number_paytomorrow_en-US.html)
-* MVNO_order_confirmation_new_number_paytomorrow_es-US — [development](mvno/MVNO_order_confirmation_new_number_paytomorrow_es-US.html) | [INLINED](mvno/inlined/MVNO_order_confirmation_new_number_paytomorrow_es-US.html)
-
-
-* MVNO_order_shipped_new_number_paytomorrow_en-US — [development](mvno/MVNO_order_shipped_new_number_paytomorrow_en-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_new_number_paytomorrow_en-US.html)
-* MVNO_order_shipped_new_number_paytomorrow_es-US — [development](mvno/MVNO_order_shipped_new_number_paytomorrow_es-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_new_number_paytomorrow_es-US.html)
-
-
-PayTomorrow Port-in:
-
-
-* MVNO_order_confirmation_port_in_paytomorrow_en-US — [development](mvno/MVNO_order_confirmation_port_in_paytomorrow_en-US.html) | [INLINED](mvno/inlined/MVNO_order_confirmation_port_in_paytomorrow_en-US.html)
-* MVNO_order_confirmation_port_in_paytomorrow_es-US — [development](mvno/MVNO_order_confirmation_port_in_paytomorrow_es-US.html) | [INLINED](mvno/inlined/MVNO_order_confirmation_port_in_paytomorrow_es-US.html)
-
-
-* MVNO_order_shipped_port_in_paytomorrow_en-US — [development](mvno/MVNO_order_shipped_port_in_paytomorrow_en-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_port_in_paytomorrow_en-US.html)
-* MVNO_order_shipped_port_in_paytomorrow_es-US — [development](mvno/MVNO_order_shipped_port_in_paytomorrow_es-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_port_in_paytomorrow_es-US.html)
-
-
-Device Swap:
-
-
-* MVNO_order_confirmation_device_swap_en-US — [development](mvno/MVNO_order_confirmation_device_swap_en-US.html) | [INLINED](mvno/inlined/MVNO_order_confirmation_device_swap_en-US.html)
-* MVNO_order_confirmation_device_swap_es-US — [development](mvno/MVNO_order_confirmation_device_swap_es-US.html) | [INLINED](mvno/inlined/MVNO_order_confirmation_device_swap_es-US.html)
-
-
-* MVNO_order_shipped_device_swap_en-US — [development](mvno/MVNO_order_shipped_device_swap_en-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_device_swap_en-US.html)
-* MVNO_order_shipped_device_swap_es-US — [development](mvno/MVNO_order_shipped_device_swap_es-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_device_swap_es-US.html)
-
-
-SIM order:
-
-
-* MVNO_order_confirmation_sim_en-US — [development](mvno/MVNO_order_confirmation_sim_en-US.html) | [INLINED](mvno/inlined/MVNO_order_confirmation_sim_en-US.html)
-* MVNO_order_confirmation_sim_es-US — [development](mvno/MVNO_order_confirmation_sim_es-US.html) | [INLINED](mvno/inlined/MVNO_order_confirmation_sim_es-US.html)
-
-
-* MVNO_order_shipped_sim_en-US — [development](mvno/MVNO_order_shipped_sim_en-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_sim_en-US.html)
-* MVNO_order_shipped_sim_es-US — [development](mvno/MVNO_order_shipped_sim_es-US.html) | [INLINED](mvno/inlined/MVNO_order_shipped_sim_es-US.html)
-
-
-Order cancelled:
-
-
-* MVNO_order_cancelled_en-US — [development](mvno/MVNO_order_cancelled_en-US.html) | [INLINED](mvno/inlined/MVNO_order_cancelled_en-US.html)
-* MVNO_order_cancelled_es-US — [development](mvno/MVNO_order_cancelled_es-US.html) | [INLINED](mvno/inlined/MVNO_order_cancelled_es-US.html)
-
-
-Returns:
-
-
-* MVNO_RMA_generated_en-US — [development](mvno/MVNO_RMA_generated_en-US.html) | [INLINED](mvno/inlined/MVNO_RMA_generated_en-US.html)
-* MVNO_RMA_generated_es-US — [development](mvno/MVNO_RMA_generated_es-US.html) | [INLINED](mvno/inlined/MVNO_RMA_generated_es-US.html)
-
-
-* MVNO_return_received_en-US - [development](mvno/MVNO_return_received_en-US.html) | [INLINED](mvno/inlined/MVNO_return_received_en-US.html)
-* MVNO_return_received_es-US - [development](mvno/MVNO_return_received_es-US.html) | [INLINED](mvno/inlined/MVNO_return_received_es-US.html)
-
 
 ## Retailers MVNO (retailers.bossrevolution.com)
 
