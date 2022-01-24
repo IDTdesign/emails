@@ -27,6 +27,11 @@ title: Email templates
 
 * MVNO_sim_purchase_rossman_notification_v2 — [development](mvno/MVNO_sim_purchase_rossman_notification_v2.html) | [INLINED](mvno/inlined/MVNO_sim_purchase_rossman_notification_v2.html)
 
+### ACP / EBB handler
+
+* MVNO_de_enrollment_job_45_email_en-US — [development](mvno/MVNO_de_enrollment_job_45_email_en-US.html) | [INLINED](mvno/inlined/MVNO_de_enrollment_job_45_email_en-US.html)
+* MVNO_de_enrollment_job_45_email_es-US — [development](mvno/MVNO_de_enrollment_job_45_email_es-US.html) | [INLINED](mvno/inlined/MVNO_de_enrollment_job_45_email_es-US.html)
+
 ### Tier switcher
 
 * MVNO_tier_switcher_monthly_report — [development](mvno/MVNO_tier_switcher_monthly_report.html) | [INLINED](mvno/inlined/MVNO_tier_switcher_monthly_report.html)
